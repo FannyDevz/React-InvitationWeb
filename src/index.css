@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script:wght@400;500;600;700&family=Jost:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .form-control {
+    @apply flex h-10 w-full px-3 py-2 border border-slate-300 rounded-md text-primary placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-200/80 focus-visible:border-blue-400;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 100%;
+  border: 2px solid black;
+  color: red;
+}
